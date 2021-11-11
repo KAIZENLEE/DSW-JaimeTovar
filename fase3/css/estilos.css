@@ -1,21 +1,74 @@
+* {
+margin: 0;
+padding: 0;
+} 
+
 header{
-    background-color: #293B5F;
+    width: 1000;
+    height: 250;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,d24b5a+50,ba2737+51,f18e99+100;Red+Gloss+%233 */
+background: rgb(239,197,202); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 ); /* IE6-9 */
 }
-nav{
-    background-color: #47597E;
-    grid-column: 1/4;
-}
+     
+                    
+/*-- MENU DESPLEGABLE -- */
+
+#menu-h {
+        max-width: 1000px;
+        min-height: 50px;
+        background: #000;
+        margin: 0 auto;
+        }
+
+#menu-h li {
+       line-height: 3rem;
+       position: relative;
+        }
+        
+ #menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+            }
+
+#menu-h a {
+        color: fff;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        background-color: black;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+#menu-h a:hover  {
+            background-color: #069;
+            }
+#menu-h ul ul {
+            display: none;
+            position: absolute;
+            }
+
+#menu-h ul li :hover ul {
+            display: block;
+        }
+        
+      
+
 section{
     background-color: #DBE6FD;
     grid-column: 1/4;
 }
 aside{
     background-color: #B2AB8C;
-    grid-column: 4/5;
-   
+    grid-column: 4/5;   
 }
 footer{
     background-color: #345B63;
+    grid-column: 1/5;
 }
 main{
     display: grid;

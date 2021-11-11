@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', end
                     
 /*-- MENU DESPLEGABLE -- */
 
-#menu-h {
+/* #menu-h {
         max-width: 1000px;
         min-height: 50px;
         background: #000;
@@ -27,13 +27,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', end
 #menu-h li {
        line-height: 3rem;
        position: relative;
-        }
+            }
+#menu-h li ul {
+        position: absolute;
+        
+            }
         
  #menu-h ul {
     list-style: none;
     display: flex;
     justify-content: center;
-            }
+            } 
 
 #menu-h a {
         color: fff;
@@ -41,7 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', end
         padding: 20px;
         text-decoration: none;
         background-color: black;
-        font-size: 18px;
+        font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 #menu-h a:hover  {
@@ -54,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', end
 
 #menu-h ul li :hover ul {
             display: block;
-        }
+        } */
         
       
 

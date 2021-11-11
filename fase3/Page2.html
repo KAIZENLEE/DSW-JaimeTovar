@@ -11,35 +11,35 @@
         <body>
     <header>  <section id="logo"><img src="img/logo.png" alt="logo"></section>   </header>
   
-    <nav> <li class="parent"><a href="#">Principal</a>
-        <ul>
-           <li><a href="Page2.html">Formas CSS</a></li>
-           <li><a href="#">Foros</a></li>
-           <li><a href="#">Tutoriales</a></li>
-           <li ><a href="#">Cursos</a></li>
-        </ul>
-     </li>
-     <li><a href="#">Mejorando.la</a></li>
-     <li><a href="#">L4C</a></li>
-     <li class="parent"><a href="#">Mas de Cristalab</a>
-        <ul>
-           <li><a href="#">Publica un tutorial</a></li>
-           <li><a href="#">¿Qué es Cristalab?</a></li>
-           <li><a href="#">Anime</a></li>
-        </ul>
-     </li>   
-        </nav>
-        
-       
+    <!--MENU DESPELGABLE-->
+
+    <Nav id="menu-h">
+<ul> 
+<li><a href="index.html">inicio</a> </li>
+<li><a href="Page2.html">Introduccion a CSS</a> </li>
+<ul class="submenu"> 
+    <li><a href="#">Selectores CSS</a> </li>
+    <li><a href="#">Identificadores CSS</a> </li>
+</ul>
+
+<li><a href="#">Ayudas </a> </li>
+<ul class="submenu"> 
+    <li><a href="#">CSS Files PDF</a> </li>
+    <li><a href="#">CSS Videos</a> </li>
+    <li><a href="#">CSS Audios</a> </li>
+</ul>
+<li><a href="#">Conclusion</a> </li>  
+</ul>
+    </Nav>   
    
-        <main>
+    <main>
         
-            <section>
-                <article>
-                    
-        <p> 
-            <div style="font-size:25px;">
-                <h2>Empezando</h2>
+        <section>
+            <article>
+                
+    <p> 
+        <div style="font-size:25px;">
+            <h2>Empezando</h2>
 Comencemos por aprender cómo podemos incluir CSS en nuestros proyectos. 
 Por lo general, hay tres formas en que lo hacemos.
 
@@ -47,31 +47,52 @@ Por lo general, hay tres formas en que lo hacemos.
 <h2>1. CSS en línea</h2>
 En primer lugar, podemos incluir CSS directamente en nuestros elementos 
 HTML. Para ello, hacemos uso del atributo  -- Style --  y luego le proporcionamos propiedades.
-
-
-                </div>
-        
+<p style="text-align: center; ">
+    
+<img src="img/01_Img.JPG" alt="Imagen 1">
+</p>
+Aquí le damos la propiedad de colory establecemos 
+el valor en blue, lo que da como resultado lo siguiente:
+<p style="text-align: center; ">
+    <img src="img/02_Img.JPG" alt="Imagen 2">
+    </p>
+            </div>
+    
+    </p>
+            </article>
+            <p> <div style="font-size:25px;">
+               <h2>2. CSS interno</h2> 
+La otra forma de incluir CSS es usando el elemento  -- style --
+en la sección head del documento HTML. A esto se le llama estilo interno.
+<p style="text-align: center; ">
+    <img src="img/03_Img.JPG" alt="Imagen 3">
+    </p>
+               
+            </p>
+            <article> <div style="font-size:25px;">
+                <h2>3. CSS externo</h2>
+                La tercera y más recomendada forma de incluir CSS es utilizar una hoja de estilo externa
+                una hoja de estilo con una .cssextensión e incluimos su enlace en el documento HTML, así:       
+                <p style="text-align: center; ">
+                    <img src="img/04_Img.JPG" alt="Imagen 4"> 
+                </p>
+            </div>
+            </article>
         </p>
-                </article>
-                <p> <div style="font-size:25px;">
-                    Dejando atras los chistes,  el propósito de esta guía es enseñar lo esencial, lo suficiente para comenzar..</div>
-                </p>
-                <article> <div style="font-size:25px;">
-                    Los temas que trataremos los encontrara en el Menu de esta Pagina y esperamos que sea Util y Entretenido para Usted.</p>
-        
-                </p>
-                    Solo para introducirnos en el tema, recuerda que La sigla CSS corresponde a la expresión inglesa Cascading StyleSheets, que puede traducirse como “Hojas de estilo en cascada”. El concepto se utiliza en el ámbito de la informática para referirse a un lenguaje empleado en el diseño gráfico.
-        
-        El lenguaje CSS permite presentar, de manera estructurada, un documento que fue escrito en un lenguaje de marcado. Se usa especialmente en el diseño visual de un sitio web cuando las páginas se hallan escritas en XML o HTML</p>
-        
-                   
-                </div>
-                </article>
-            </section>
-            <aside> 
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </aside>
-            <main>
+        <article> <div style="font-size:25px;">
+            
+            En el código anterior, hemos incluido el enlace del archivo -- style.css -- que usa el elemento link. Luego escribimos todo nu
+            en una hoja de estilo separada llamada -- style.css -- para que sea fácilmente manejable.   
+            <p style="text-align: center; ">
+                <img src="img/05_Img.JPG" alt="Imagen 5"> 
+            </p>
+        </div>
+        </article>
+        </section>
+        <aside> 
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <main>
     <footer>Mi Pie de Pagina</footer>
    
     
